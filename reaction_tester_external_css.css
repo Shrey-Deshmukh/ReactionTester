@@ -1,0 +1,28 @@
+body{
+  font-family: sans-serif;
+}
+
+  #shapeContainer{
+    width: auto;
+    height: 460px;
+    border: 1px solid grey;
+    background-color: white;
+    position: relative;
+  }
+
+  #shape{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: none;/*hide the shape before we start*/
+    position:relative;/*so it gets a margin on left,top,right,bottom*/
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  button{
+    width: 60px;
+    border-radius: 40%;
+  }
